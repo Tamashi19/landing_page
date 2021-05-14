@@ -1,0 +1,246 @@
+/* CONFG DA PG ADAPITADA PARA O MEU MONITOR DE 1900PX */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    /* background-color: chartreuse; */
+    margin: 0 auto;
+}
+
+
+header{
+    background-color: #f9003d;
+    height: 60px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+}
+
+.container_header{
+   display: flex; 
+   justify-content: flex-end;
+   height: 100%;
+}
+
+.nav_header{
+    display: flex;
+    justify-content:space-between;
+    /* background-color: #f5e2a1; */
+    width: 590px;
+    height: 100%;
+    align-items:center;
+}
+
+.nav_header a{
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family: 'Bebas Neue',cursive;
+    font-size: 18px;
+}
+
+/* MAIN */
+
+main{
+    margin-top: 60px;
+}
+.container_baner{
+    position: relative;
+    height: 978px;
+}
+
+.fundo_baner{
+    width: 100%;
+}
+.box_container_baner{
+    position: absolute;
+    top: 226px;
+    left: 121px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size:96px ;
+    font-family: 'Bebas Neue',cursive;
+    width: 545px;
+    font-weight: 400;
+}
+
+hr{
+    color: #ffaf00;
+}
+
+.box_container_baner span{
+    color: #f9003d;
+    font-size: 53px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.box_container_baner img{
+    width: 37px;
+
+}
+.container_sobre{
+    background-color: #000324;
+    height: 800px;
+}
+
+.container_conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.container_sobre h2{
+    color: #f9003d;
+    font-size: 64px;
+    font-family: 'Bebas Neue',cursive;
+    font-weight: 500;
+
+
+}
+
+.box_sobre{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box_participantes{
+    color: #fff;
+
+}
+
+.box_participantes samp{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.box_participantes h3{
+    font-family: 'Bebas Neue', cursive; 
+    color:#ffaf00;
+    text-transform: uppercase;
+    width: 557px;
+    font-size: 64px;
+    font: weight 500;
+    margin: 10px 0;
+}
+
+.box_participantes p{
+    font-family: 'Open Sans', sans-serif;
+    width: 592px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.info{
+    background-image: url(./assets_/imagem-fundo-info.png) ;
+    
+
+}
+
+.container_info{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 193px;
+
+}
+
+.info h2{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.box_span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 289px;
+    height: 100px;
+    border:1px solid #a259f7         
+}
+
+
+.info span{
+    color: #a259f7;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    
+}
+
+.endereco{
+    background-image: url(./assets_/imagem-fundo-endereco.png);
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.endereco h2{
+    font-family: 'Bebas Neue',cursive; 
+    font-size: 64px;
+    font-weight: 400;
+    color: #ffaf00;
+    width: 899px;
+    margin-bottom: 10px;
+}
+.box_endereco{
+    display: flex;
+    width: 899px;
+    height: 203px;
+    background-color: #010010;
+    align-items: center;
+    border: 2px solid #340b65;
+}
+
+.endereco p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: normal;
+    color:#a259f7;
+    width: 435px;
+    margin: 66px;
+}
+
+.img_mapa{
+    position: absolute;
+    top: 125px;
+    right: 545px;
+}
+
+footer{
+    height: 82px;
+    background-color: #f9003d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+   
