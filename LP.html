@@ -6,18 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
+    <script src="https://kit.fontawesome.com/d4d945de0e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="LP.css">
 </head>
 
 <body>
     <header>
         <div class="container container_header">
-            <nav class="nav_header">
+            <nav id="links" class="nav_header">
                 <a href="#inicio">inicio</a>
                 <a href="#container_sobre">sobre</a>
                 <a href="#desafios">desafios</a>
                 <a href="#endereco">endereço</a>
+                <a href="" onclick="botaoDoMenu()">fechar</a>
             </nav>
+            <a class="btn_menu" href="#" onclick="botaoDoMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
     </header>
     <main>
@@ -35,9 +40,9 @@
             <div class="container container_conteudo">
                 <h2>sobre os projetos</h2>
                 <div class="box_sobre">
-                    <img src="assets_/imagem-seção-sobre.png" alt="">
+                    <img class="img_box_sobre" src="assets_/imagem-seção-sobre.png" alt="">
                     <div class="box_participantes">
-                        <samp>participantes</samp>
+                        <span>participantes</span>
                         <h3>mais de 80 alunos organizados em 16 grupos</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -84,13 +89,28 @@
         
 
     </main>
-    <footer>
-        <span>Copyright e 2020 - Escola Senai se Informática</span>
+
+    <footer>            
+            <span class="span_footer">Copyright e 2020 - Escola Senai de Informática</span>    
     </footer>
+
+    <script>
+        function botaoDoMenu() {
+            var menu = document.getElementById("links");
+            if (menu.style.display ==="flex") {
+                // Esconder o menu
+                menu.style.display = "none";
+            }else{
+                // MOSTRAR O MENU
+                menu.style.display = "flex";
+            }
+        }
+    </script>
         
     
 </body>
 </html>
 
+ht
 
 
